@@ -1,0 +1,51 @@
+{
+    "tests_by_mangled_function_name": {
+        "dmp.x\u01c1DossierMedical\u01c1__init__": [
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_pathologie_validation",
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_suppression",
+            "tests/test_dmp.py::TestDMPUnit::test_recherche_inexistant",
+            "tests/test_performance.py::test_perf_recherche",
+            "tests/test_concurrency.py::test_acces_concurrent",
+            "tests/test_security.py::test_suppression_definitive"
+        ],
+        "dmp.x\u01c1DossierMedical\u01c1ajouter_pathologie": [
+            "tests/test_concurrency.py::test_acces_concurrent",
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_pathologie_validation"
+        ],
+        "dmp.x\u01c1DossierMedical\u01c1_log_access": [
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_pathologie_validation",
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_suppression",
+            "tests/test_dmp.py::TestDMPUnit::test_recherche_inexistant",
+            "tests/test_performance.py::test_perf_recherche",
+            "tests/test_concurrency.py::test_acces_concurrent",
+            "tests/test_security.py::test_suppression_definitive"
+        ],
+        "dmp.x\u01c1DossierMedical\u01c1ajouter_patient": [
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_pathologie_validation",
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_suppression",
+            "tests/test_performance.py::test_perf_recherche",
+            "tests/test_concurrency.py::test_acces_concurrent",
+            "tests/test_security.py::test_suppression_definitive"
+        ],
+        "dmp.x\u01c1DossierMedical\u01c1supprimer_patient": [
+            "tests/test_dmp.py::TestDMPUnit::test_ajout_suppression",
+            "tests/test_security.py::test_suppression_definitive"
+        ],
+        "dmp.x\u01c1DossierMedical\u01c1rechercher_patient": [
+            "tests/test_dmp.py::TestDMPUnit::test_recherche_inexistant",
+            "tests/test_performance.py::test_perf_recherche"
+        ]
+    },
+    "duration_by_test": {
+        "tests/test_concurrency.py::test_acces_concurrent": 0.0002638510013639461,
+        "tests/test_dmp.py::TestDMPUnit::test_ajout_suppression": 0.0003175160018145107,
+        "tests/test_dmp.py::TestDMPUnit::test_recherche_inexistant": 0.0007657880014448892,
+        "tests/test_dmp.py::TestDMPUnit::test_ajout_pathologie_validation": 0.00024049800049397163,
+        "tests/test_patients.py::TestPatient::test_creation_patient_valide": 0.00040413900205749087,
+        "tests/test_patients.py::TestPatient::test_controle_champs_obligatoires": 0.00022272700152825564,
+        "tests/test_patients.py::TestPatient::test_format_date_naissance": 0.00020910400053253397,
+        "tests/test_performance.py::test_perf_recherche": 0.00021494899920071475,
+        "tests/test_security.py::test_suppression_definitive": 0.00032966599974315614
+    },
+    "stats_time": 29.050909984
+}

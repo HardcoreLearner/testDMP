@@ -1,0 +1,14 @@
+# Dépendances principales
+pytest
+mutmut
+hypothesis
+faker
+coverage
+pytest-html
+
+# Qualité de code
+black
+flake8
+
+# Pour la CI
+python-dateutil
